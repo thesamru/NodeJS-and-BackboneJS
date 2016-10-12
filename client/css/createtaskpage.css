@@ -1,0 +1,49 @@
+
+#target_createtask{
+margin-top: 10%;
+
+	
+}
+.ctaskbox{
+border: 2px solid #2ECC71;
+padding: 10px;
+}
+/*.dailytaskbox{
+    padding: 10px;
+    width: 100%;	
+    border: 1px solid #2ECC71;
+	border-radius: 5px;
+	width: 100%;
+}*/
+
+/*.task-form-body{
+	padding: 2%;
+	border: 2px solid #2ECC71;
+	box-shadow:  2px 2px 2px gray;
+	border-radius: 5px;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}*/
+/*.signup-heading{
+	color: gray;
+	text-align: center;
+	font-family: Georgia, serif;
+}*/
+.resetstatus{
+    padding-left: 15px;
+    padding-right: 15px;
+    border:none;
+    border-radius: 0;
+    box-shadow: 3px 3px 2px #888888;
+
+}
+.submitTask{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    border-radius: 0;
+    box-shadow: 3px 3px 2px #888888;
+    border:none;
+    margin-right: 2px;
+}

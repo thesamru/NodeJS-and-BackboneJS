@@ -1,0 +1,58 @@
+#formbox{
+	margin-top: 1px;
+	border: 1px solid gray;
+	border-radius: 2px;
+	width: 100%;
+}
+#lgn-form{
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding:3px;
+}
+#newlogin-target{
+	width: 100%;
+	height: auto;
+}
+hr{
+	width: 100%;
+	height:2px;
+	background-color: rgba(128, 128, 128, 0.54);
+	margin-top: 55px;
+}
+#chart-img{
+	width: 100%;
+	margin-bottom: 15px;
+
+}
+#desc{
+	margin: 5%;
+	text-align: left;
+
+}
+#l-chartRow1{
+	margin-left: 15px;
+}
+#r-chartRow2{
+	margin-left: 15px;
+}
+#page-body{
+	margin-bottom: 12%;
+	border: 1px solid gray;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	background-color: white;
+}
+#form-group{
+	margin-left: 30px;
+	font-size: 12px;
+}
+#checkbox{
+	font-size: 12px;
+}
+#label{
+	margin-right: 5px;
+}

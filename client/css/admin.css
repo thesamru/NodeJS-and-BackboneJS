@@ -1,0 +1,46 @@
+#filterdiv{
+	border: 2px solid #2ECC71;
+	/*box-shadow:  2px 2px 2px 2px gray;*/
+	border-radius: 5px;
+
+	height: auto;
+}
+.filter{
+	align-items: center;
+}
+
+.filterbtn	{
+	
+
+	border:none;
+	border-radius: 0px;
+	
+}
+
+.ff{
+
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.my_class{
+	background-color: white;
+}
+ @media (max-width: 760px) {
+
+
+.ff{
+
+	margin-top: auto;
+	margin-bottom: auto;
+}
+/*.filter{
+	display: block;
+}*/
+/*.form-control{
+	display: block;
+}
+.ff{
+	display: block;
+}
+*/
+ }

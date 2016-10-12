@@ -1,0 +1,31 @@
+<div>
+<table class="table table-bordered">
+      <div class="subheading">
+                   
+                <h4 class="signup-heading"><b>Submit your Task</b></h4>
+                </div>
+    <thead>
+        <tr>
+            
+            <th class="dat">Date</th>
+            <th class="tsk">Task</th>
+            <th class="tim">Time</th>
+            <th class="ptask">Pending Task</th>
+            <th class="cmnt">Comment</th>
+            <th class="action">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each result}}
+        <tr>
+            <td class="dat"    id="dat{{@index}}">{{changeDate date}}</td>
+            <td class="tsk a"    id="tsk{{@index}}">{{task}}</td>
+            <td class="tim a"    id="tim{{@index}}">{{time}}</td> 
+            <td class="ptask a"  id="ptask{{@index}}">{{pendingtask}}</td>
+            <td class="cmnt a"   id="cmnt{{@index}}">{{comment}}</td>
+            <td class="action" id="action{{@index}}"><button class="btn btn-primary actionbtn jumper hvr hvr-float-shadow" id="{{@index}}">Edit</button></td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+</div>

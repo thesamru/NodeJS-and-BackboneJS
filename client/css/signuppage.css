@@ -1,0 +1,165 @@
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+.img {
+    height: 36px;
+    width: 90px;
+}
+#signup-form-body{
+    margin-bottom: 8%;
+    padding-top: 5px;
+    min-width: 180px;
+    margin-left: -15px;
+    margin-right: -15px;
+    }
+.fmbox {
+    padding: 20px;
+    }
+.reg{
+
+    padding-left: 0;
+    padding-right: 0;
+    }
+}
+
+@media only screen
+and (min-device-width : 100px)
+and (max-device-width : 480px) {
+.reg{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #signup-form-body{
+    margin-bottom: 8%;
+    padding-top: 5px;
+    min-width: 180px;
+    margin-left: -15px;
+    margin-right: -15px;
+   }
+   .fmbox
+    {
+      padding: 10px !important;
+    }
+  }
+
+
+
+#sup{
+    color: red;
+}
+
+
+
+#target_signup{
+    
+    width: 100%;
+    height: auto;
+    }
+#signup-form-body{
+    border: 1px solid gray;
+    /*box-shadow: 4px 4px 6px gray;*/
+    border-radius: 10px;
+    margin-bottom: 8%;
+    padding-top: 19px;
+    margin-left: 2px;
+    margin-right: 2px;
+    min-width: 200px;
+}
+#head{
+    margin-left: 0;
+    color: gray;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+#button{
+    float: right;
+}
+#register{
+    min-height: 300px; 
+}
+#target_signup{
+    width: 100%;
+    height: auto;
+    }
+#signup-form-body{
+    border: 1px solid gray;
+    /*box-shadow: 4px 4px 6px gray;*/
+    border-radius: 10px;
+    margin-bottom: 8%;
+    padding-top: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#head{
+    margin-left: 0;
+    color: gray;
+    text-align: center;
+    font-family: Georgia, serif;
+}
+#button{
+    float: right;
+}
+#signup_empid-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_email-location{ 
+    color: red;
+    margin-right: 20px;
+}
+#signup_fname-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_fname-location1{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_lname-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_email1-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_email2-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_email2-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_mobno-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_altmobno-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_pswd-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+#signup_cnf_pass-location{
+    float: right;
+    color: red;
+    margin-right: 20px;
+}
+.fmbox
+{
+  padding: 40px;
+}

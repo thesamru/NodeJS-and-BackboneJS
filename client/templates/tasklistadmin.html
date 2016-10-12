@@ -1,0 +1,30 @@
+<div>
+<center><h4><b>List Task by {{Username}}</b></h4></center>
+<table class="table table-bordered tablesorter" id="admintable">
+ 
+    <thead>
+        <tr>
+            
+            <th class="dat">Date</th>
+            <th class="tsk">Task</th>
+            <th class="tim">Time</th>
+            <th class="ptask">Pending Task</th>
+            <th class="cmnt">Comment</th>
+
+            <th class="eff">efficency</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each result}}
+        <tr>
+            <td class="dat"    id="dat{{@index}}">{{changeDate date}}</td>
+            <td class="tsk a"    id="tsk{{@index}}">{{task}}</td>
+            <td class="tim a"    id="tim{{@index}}">{{time}}</td> 
+            <td class="ptask a"  id="ptask{{@index}}">{{pendingtask}}</td>
+            <td class="cmnt a"   id="cmnt{{@index}}">{{comment}}</td>
+            <td class="eff a"   id="eff{{@index}}">{{efficency}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+</div>

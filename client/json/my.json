@@ -1,0 +1,23 @@
+{
+	"people":[
+     {
+       "userid":1,
+       "username":"ved"
+     },
+     {
+    
+       "userid":2,
+       "username":"pawan"
+     },
+     {
+     
+       "userid":3,
+       "username":"uma"
+     },
+     {
+     
+       "userid":4,
+       "username":"xyz"
+     }
+    ]
+}

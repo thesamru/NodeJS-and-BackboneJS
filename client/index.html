@@ -1,0 +1,89 @@
+<DOCTYPE!>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css">
+         <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
+        <script src="library/jquery-3.1.0.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script> 
+        <script src="library/underscore-min.js"></script>
+        <script src="library/backbone-min.js"></script>
+        <script src="library/handlebars.js"></script>
+        <script src="script/highcharts.js"></script>
+        <script src="script/index.js"></script>
+        <!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script> -->
+        <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+         <link rel="stylesheet" href="library/font-awesome-4.6.3/css/font-awesome.min.css">
+
+
+ 
+      
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/loginpage.css">
+        <link rel="stylesheet" type="text/css" href="css/dailytaskpage.css">
+        <link rel="stylesheet" type="text/css" href="css/adminpage.css">
+        <link rel="stylesheet" type="text/css" href="css/profilepage.css">
+        <link rel="stylesheet" type="text/css" href="css/signuppage.css">
+        <link rel="stylesheet" type="text/css" href="css/statuslist.css">
+        <link rel="stylesheet" type="text/css" href="css/admin.css">
+        <link rel="stylesheet" type="text/css" href="css/createtaskpage.css">
+       <link rel="stylesheet" type="text/css" href="css/noty.css">
+
+        <link rel="stylesheet" type="text/css" href="css/hover-min.css">
+
+        <title></title>
+    </head>
+
+    <body>
+        <header class="header">
+            <img class="img img-responsive" src="images/wittybrains-logo.png" class="img">
+            <!-- <div id="linkdiv"><a href="javascript:notyfunction('linkdiv');" class="noty"><i class="fa fa-bell pull-right" aria-hidden="true"></i></a></div> -->
+            <div id="linkdiv"><a href="javascript:notyfunction('linkdiv');" class="noty"><p class="notificationcount">2</p></a></div>
+        </header>
+         <header class="header2"> <div class="tt" id="tt"></div>
+        </header>
+        <div class="row">
+            <div class="col-sm-2 sidebar" id="left" style="z-index: 100">
+                <nav class="navbar navbar-default sidebar" id="sidebar12" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
+                              <span class="sr-only"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-sidebar-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbarlist">
+                            <li class="hvr-sweep-to-right hvr-grow"><a href="javascript:home5();"><strong>Home</strong><span class="pull-right hidden-xs showopacity glyphicon glyphicon-home"></span></a></li>
+                            <li class="hvr-sweep-to-right hvr-grow" id="profile2"><a href="javascript:profile5(0);"><strong>Profile</strong><span class="pull-right hidden-xs showopacity  glyphicon glyphicon-user" ></span></a></li>
+                            
+                            <li class="divider hvr-sweep-to-right" ></li>
+                            <li class="hvr-sweep-to-right hvr-grow"><a href="javascript:createTask(0);"><strong>createTask</strong><span class="pull-right hidden-xs showopacity glyphicon glyphicon-edit" ></span></a></li>
+                            <li class="hvr-sweep-to-right hvr-grow"><a href="javascript:taskList(0);"><strong>Task List</strong><span class="pull-right hidden-xs showopacity glyphicon glyphicon-list" ></span></a></li>
+                            <li class="divider"></li>
+                            
+                            <li class="hvr-sweep-to-right hvr-grow"><a href="javascript:logout5(0);"><strong>Logout</strong><span class="pull-right hidden-xs showopacity glyphicon glyphicon-off" ></span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+             </div>
+        <div class="col-sm-8" id="right">
+        </div>
+    </div>
+        <footer class="footer" style="z-index: 100">
+            <p style="width: 100%;">Copyright © wittybrains.com</p>
+        </footer>
+        <script type="text/javascript" src="js/models/model.js"></script>
+        <script type="text/javascript" src="js/views/statusview.js"></script>
+        <script type="text/javascript" src="js/router/myrouter.js"></script>
+        <script type="text/javascript">$('#date').datepicker();</script>
+    </body>
+    </html>

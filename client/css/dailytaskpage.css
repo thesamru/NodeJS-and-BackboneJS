@@ -1,0 +1,257 @@
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	.dtask{
+    margin-right: 8px !important ;
+    margin-left: -14px !important;
+	}
+	.taskr1{
+    margin-right: -18px;
+    margin-left: -20px;
+}
+/*#logout {
+    position: absolute;
+    top: -106px !important;
+    right: 30px !important;
+}
+#profile {
+    position: absolute;
+    top: -106px !important;
+    right: 97px !important;
+  }*/
+}
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+	.dtask{
+    margin-right: 8px !important ;
+    margin-left: -14px !important;
+	}
+}
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
+
+
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/*#logout {
+    position: absolute;
+    top: -106px !important;
+    right: 30px !important;
+}
+#profile {
+    position: absolute;
+    top: -106px !important;
+    right: 97px !important;
+  }*/
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	.task-form-body{
+    width: 122%;
+}
+
+}
+/*#logout {
+    position: absolute;
+    top: -106px !important;
+    right: 30px !important;
+}
+#profile {
+    position: absolute;
+    top: -106px !important;
+    right: 97px !important;
+  }*/
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	.task-form-body{
+    width: 122%;
+}
+/*#logout {
+    position: absolute;
+    top: -106px !important;
+    right: 30px !important;
+}
+#profile {
+    position: absolute;
+    top: -106px !important;
+    right: 97px !important;
+  }*/
+}
+ @media only screen
+and (max-width : 768px) {
+/* STYLES GO HERE */
+	p.tasktext {
+    width: 2em !important;
+    word-wrap: break-word !important;
+}
+
+}
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* STYLES GO HERE */
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+	.tasktext {
+    width: 20em;
+    word-wrap: break-word;
+}
+/*#logout {
+    position: absolute;
+    top: -106px !important;
+    right: 30px !important;
+}
+#profile {
+    position: absolute;
+    top: -106px !important;
+    right: 97px !important;
+  }*/
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+
+
+
+
+
+
+#target_dailytask{
+	width: 100%;
+	
+}
+.dailytaskbox{
+    padding: 10px;
+    width: 100%;	
+    border: 1px solid #2ECC71;
+	/*box-shadow:  2px 2px 2px gray;*/
+	border-radius: 5px;
+	width: 100%;
+}
+
+.task-form-body{
+	padding: 2%;
+	border: 2px solid #2ECC71;
+	/*box-shadow:  2px 2px 2px gray;*/
+	border-radius: 5px;
+    width: 100%;
+    margin-bottom: 30px;
+    /*margin-left: 10px;*/
+}
+.signup-heading{
+	color: gray;
+	text-align: center;
+	font-family: Georgia, serif;
+}
+
+.tablediv{
+    border: 2px solid #2ECC71;
+	/*box-shadow:  2px 2px 2px 2px gray;*/
+	border-radius: 5px;
+	width: 100%;
+	height: auto;
+}
+.frm{
+	font-size: 12px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+    border-color: #2ECC71;
+}
+.container-box{
+	padding: 2%;
+	margin-top: 40px;
+}
+/*
+#logout{
+	position: relative;
+	top: -40px;
+	right: -180px;
+}
+#profile{
+	position: relative;
+	top: -40px;
+	right: -100px;*/
+}
+#Esubmit{
+    font-size: 12px;
+    color:red;
+}
+#dt{
+    color: red;
+    display: none;
+}
+#ts{
+    color: red;
+    display: none;
+}
+#tm{
+    color: red;
+    display: none;
+}
+#pt{
+    color: red;
+    display: none;
+}
+.table {
+  font-size: 10px;
+    }
+.resetstatus{
+    padding-left: 15px;
+    padding-right: 15px;
+    border:none;
+    border-radius: 0;
+    box-shadow: 3px 3px 2px #888888;
+
+}
+.submitTask{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    border-radius: 0;
+    box-shadow: 3px 3px 2px #888888;
+    border:none;
+    margin-right: 2px;
+}

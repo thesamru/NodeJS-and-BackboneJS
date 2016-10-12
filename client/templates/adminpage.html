@@ -1,0 +1,43 @@
+<div class="container adminpage" id="adminpage">
+ <center><h3 id="h3"><b>Check Status Submisstion</b></h3></center>
+       
+          <div class="row" >
+           <div class="col-md-12" id="filterdiv">
+              <div class="filter" >
+
+                <form class="form-inline row"  name="filterform" form action="javascript:void(0);" id="userfilter">
+               <div class="col-sm-3 ff">
+		           <select class="form-control" id="name">
+		            <option value="A">All</option>
+		           
+		            {{#each result}}
+		              <option value={{userid}}>{{fname}} {{lname}}</option>
+		            {{/each}}
+		            </select>
+                </div>
+                <div class="col-sm-3 ff " >
+		                    <input type="text" class="form-control  datepicker" name="stdate" id="ssdate"  onkeydown="return false"  placeholder="dd/mm/yyyy" >
+		                          
+		            </div>
+                <div class="col-sm-3 ff">              
+		                    <input type="text" class="form-control datepicker" id="eedate"  onkeydown="return false"  placeholder="dd/mm/yyyy">
+		            </div>
+                <div class="col-sm-3 ff">   
+		            <button  type="submit"  class="btn btn-primary filterbtn hvr-float-shadow " id="filterbtn ">Filter</button>
+                </div>
+                </form>
+              </div>
+           </div>
+         </div>
+
+        <div class="row" >
+           <div class="col-sm-12 ">
+              <div class="container tablediv" id="tablediv">
+                <div class="container " id="adminbox">
+                </div>
+              </div>
+           </div>
+       </div>
+</div> 
+
+

@@ -1,0 +1,15 @@
+.rowss{
+    background-color: #2ECC71;
+
+    height: 100;
+    margin-left: 20px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    align-self: center;
+}
+#tt{
+	z-index: 100;
+}
+.newnoty{
+	background-color: #2ECC11;
+}

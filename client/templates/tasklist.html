@@ -1,0 +1,29 @@
+<div class="container" id="list">
+<table class="table table-bordered">
+      <div class="subheading">
+                   
+                <h4 class="signup-heading"><b>List of Task</b></h4>
+                </div>
+    <thead>
+        <tr>
+            
+            <th class="dat">Date</th>
+            <th class="tsk">Task</th>
+            <th class="tim">Deadline</th>
+            <th> Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each tasks}}
+        <tr >
+            <td class="date"    id="date{{@index}}">{{date}}</td>
+            <td class="task"    id="task{{@index}}">{{task}}</td>
+            <td class="time"    id="time{{@index}}">{{deadline}}</td> 
+            <td><button id="i{{@index}}" class="singletaskbtn actionbtn singletaskbtn hvr-float-shadow hvr-grow hvr-shutter-in-vertical">Detail</button></td> 
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
+</div>
+
+

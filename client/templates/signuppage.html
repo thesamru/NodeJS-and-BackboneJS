@@ -1,0 +1,77 @@
+<div class="container" id="target_signup"  >
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 
+                col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 reg">
+              <div class="body-content" id="register">
+                <h4 id="head"><b>Create new user account</b><span class="label label-default"></span></h4>
+                  <div class="row" id="signup-form-body">
+                      <div class="col-sm-12 fmbox">
+                       <form class="form-horizontal" action="javascript:void(0);" id="frm" name="signupform">
+                          <div class="form-group" >
+                              <label class="control-label col-sm-3 "  for="emp-id">Emp.Id:</label>
+                                <div class="col-sm-9">
+                                  <input type="number" class="form-control" name="emp_id" id="empid" placeholder="Enter Emp Id" required="required"  min="0" >
+                                </div>
+                          </div>
+                          
+                         <div class="form-group">
+                            <label class="control-label col-sm-3" for="name">First Name:</label>
+                              <div class="col-sm-9">
+                                <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter first name" required="required" >
+                            </div>
+                          </div>
+                          <div class="form-group">
+                             <label class="control-label col-sm-3" for="name">Last Name:</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control" name="lname" id="lname" placeholder="Enter last name" required="required" >
+                                </div> 
+                          </div>
+                          <div class="form-group">
+                            <label class="control-label col-sm-3"  for="email">Email:</label>
+                            <div class="col-sm-9">
+                              <input type="email" class="form-control" name="email1" id="email" placeholder="Enter email" required="required">
+                            </div>
+                          </div>
+                           <div class="form-group">
+                             <label class="control-label col-sm-3"  for="email">Alternate Email:</label>
+                                <div class="col-sm-9">
+                                   <input type="email" class="form-control" name="email2" id="aemail" placeholder="Enter an altername email" >
+                                </div>
+                           </div>
+                          <div class="form-group">
+                            <label class="control-label col-sm-3" for="mobile">Mobile No:</label>
+                              <div class="col-sm-9">
+                                 <input type="number" class="form-control" name="mobno" id="mobile" placeholder="Enter mobile number" required="required" size="10" min="1000000000" max="9999999999">
+                              </div>
+                          </div>
+                           <div class="form-group">
+                            <label class="control-label col-sm-3" for="mobile">Alternate mobile no:</label>
+                              <div class="col-sm-9">
+                                 <input type="number" class="form-control" name="altmobno" id="mobile" placeholder="Enter an alternate mobile number" size="10" min="1000000000" max="9999999999">
+                              </div>
+                          </div>
+                          <div class="form-group">
+                            <label class="control-label col-sm-3" for="pwd">Password:</label>
+                              <div class="col-sm-9"> 
+                                 <input type="password" class="form-control infs" name="pass" id="pwd" placeholder="Enter password" required="required">
+                              </div><span id="signup_pswd-location"  ></span>
+                          </div>
+                          <div class="form-group">
+                            <label class="control-label col-sm-3 "  for="pwd">confirm Password:</label>
+                              <div class="col-sm-9"> 
+                                 <input type="password" class="form-control infs" name="cnf_pass" id="repwd" placeholder="Re-enter password" required="required">
+                              </div><span id="signup_cnf_pass-location"  ><img src='images/unchecked.gif' id='validation-img'/> Password must be same</span>
+                          </div>
+                          <h6 class="text-danger" id="sup"> <strong> <i class="fa fa-times-circle" aria-hidden="true"></i> Email or username  or empid alrady exist</strong></h6>
+                          <div class="form-group" > 
+                            <div class="col-sm-offset-3 col-sm-4">
+                              <button type="submit" class="btn btn-primary" id="button">Submit</button>
+                            </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div> 
+              </div>
+            </div>            
+          </div>
+       </div>

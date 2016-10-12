@@ -1,0 +1,239 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+.img {
+    height: 100%;
+    width: 33%;
+}
+.signup{
+    margin-top: 10%;
+    margin-bottom: 10px;
+    width: 37%;
+    border-radius: 0px;
+}
+.signin{
+    margin-top: 10%;
+    margin-bottom: 10px;
+    width: 37%;
+    border-radius: 0px;
+}
+#chart_para{
+    overflow-y:auto;
+    max-height: 100px;
+}
+
+.loginr1 {
+    margin-right: -32px;
+    margin-left: -32px;
+}
+/* STYLES GO HERE */
+}
+ 
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+ .img {
+    height: 100%;
+    width: 33%;
+}
+
+.loginr1 {
+    margin-right: -32px;
+    margin-left: -35px;
+}
+/* STYLES GO HERE */
+}
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+ .chbody{
+    width: 55%;
+
+}.loginbox{
+    width: 45% !important;
+    }
+#chart_para{
+    overflow-y:auto;
+    max-height: 100px;
+}
+/* STYLES GO HERE */
+}
+ 
+ @media screen and (max-width:414px) 
+    
+   {
+    
+    .login-body-content{
+    /*box-shadow: 1px 1px 6px gray !important;*/
+    
+    border: 2px solid #2ECC71;
+    
+}
+.signup{
+    margin-top: 18%;
+    margin-bottom: 10px;
+    width: 36%;
+}
+.signin{
+    margin-top: 18%;
+    margin-bottom: 10px;
+    width: 36%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 200px)
+and (max-device-width : 300px)
+and (orientation : landscape) {
+.login-body-content{
+    padding: 10px;
+    font-size: 12px; 
+    border: 2px solid #2ECC71;
+    border-radius: 10px;
+    /*box-shadow: 1px 1px 6px gray !important;*/
+    margin-bottom: 50px;
+    padding-top: 30px;
+    
+}
+
+
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+.jschart{
+    padding: 10px;
+    font-size: 12px;
+    border: 2px solid #2ECC71;
+    border-radius: 10px;
+    /*box-shadow: 4px 4px 6px gray;*/
+    min-height: 100px;
+    padding-left: 20px;
+    height: 50%;
+    }
+
+   .container{
+    margin-top: 10% !important;
+   }
+}
+ 
+
+
+
+body{
+    background: white;
+}
+
+.img{
+    height: 50px;
+    width: 110px;
+}
+.sidebar
+{
+    /* border: 1px solid gray; */
+    /* box-shadow: 1px 1px 1px 1px gray; */
+    border-radius: 5px;
+    padding: 1px;
+    margin-bottom: 0;
+    margin-left: 8px;
+    margin-right: 7px;
+
+}
+
+.container{
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    
+}
+
+    .toggle-button{
+    position: absolute;
+    top: -50px;
+    left: 10px;
+
+}
+#left{
+    display: none;
+}
+
+
+.login-body-content{
+    padding: 10px;
+    font-size: 12px; 
+    border: 2px solid #2ECC71;
+    border-radius: 10px;
+    /*box-shadow: 4px 4px 6px gray;*/
+    margin-bottom: 50px;
+    padding-top: 30px;
+    min-width: 200px;
+    min-height: 300px;
+}
+.jschart{
+	padding: 10px;
+    font-size: 12px;
+    border: 2px solid #2ECC71;
+    /*margin-top: 9%;*/
+    border-radius: 10px;
+    /*box-shadow: 4px 4px 6px gray;*/
+    min-height: 100px;
+    margin-bottom: 17%;
+
+    
+}
+#chart_para{
+    max-height: 100px;
+}
+.chart_container{
+    height: 50%;
+}
+.text_container{
+    height: 30%;
+}
+.target_login{
+    margin-top: 2%;
+	width: 100%;
+	height: auto;
+}
+.signup{
+    margin-top: 10%;
+    margin-bottom: 10px;
+    width: 37%;
+    background-color: #2098D1;
+    border-radius: 0px;
+}
+.signin{
+    margin-top: 10%;
+    margin-bottom: 10px;
+    width: 37%;
+    border-radius: 0px;
+    background-color: #2098D1;
+}
+
+#le{
+    font-size: 12px;
+    color:red;
+
+}
+.close{
+    color: red;
+}
+#ps{
+
+    color: red;
+    display: none;
+}
+#em{
+    color: red;
+    display: none;
+}

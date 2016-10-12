@@ -1,0 +1,38 @@
+.profilehead{
+
+    background-color: #2ECC71;
+}
+#profilebox{
+	margin-top: 4%;
+}
+
+#profilepanel{
+	border: 2px solid #2ECC71;
+	/*box-shadow: 4px 4px 6px gray;*/
+}
+#profile1{
+	position: absolute;
+	top: 18px;
+	right: 80px;
+
+}
+#logout1{
+	position: absolute;
+	top: 18px;
+	right: 10px;
+	
+}
+.update{
+	float: right;
+	margin-right: 5px:
+
+}
+.edit{
+	float: right;
+	margin-right: 5px:
+
+}
+.inputfield{
+	 background: transparent;
+    border: none;
+}
